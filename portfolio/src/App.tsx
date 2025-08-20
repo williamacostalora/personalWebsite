@@ -4,4 +4,22 @@ import { About } from "./pages/About"
 import { Contact } from "./pages/Contact"
 import { Experience } from "./pages/Experience"
 import { Projects } from "./pages/Projects"
-import { Navigation } from "./pag
+import { Navigation } from "./pages/Navigation"
+
+
+function App() {
+  return (
+    <BrowserRouter>
+    <Navigation/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App
