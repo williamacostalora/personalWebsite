@@ -59,6 +59,7 @@ export const Projects = () => {
       technologies: ["React", "Python", "Tkinter", "AI/ML", "Ollama API", "SMTP"],
       features: ["Responsive business website", "AI email customization", "90% reduction in outreach time", "Batch email campaigns"],
       liveUrl: "https://freshcleaningcolouisiana.com/",
+      githubUrl:"https://github.com/williamacostalora/fresh_start_email_generator",
       category: "automation",
       status: "completed",
       icon: Zap,
@@ -72,6 +73,7 @@ export const Projects = () => {
       features: ["Real-time activity sharing", "Animated mascot", "Friend syncing", "Custom messages", "Pastel-themed UI"],
       category: "mobile",
       status: "completed",
+      githubUrl:"https://github.com/Nadizdom34/momodev",
       icon: Smartphone,
       gradient: "from-pink-400 to-rose-500"
     },
@@ -81,21 +83,11 @@ export const Projects = () => {
       longDescription: "Created an intelligent water sustainability platform that analyzes usage patterns and provides personalized recommendations to help users reduce their environmental impact.",
       technologies: ["Next.js", "React", "Together AI API", "Vercel", "TypeScript"],
       features: ["Personalized water scores", "AI-powered insights", "Conservation recommendations", "Usage analytics"],
+      liveUrl:"https://waterwise-wateruseconsultant-chat.vercel.app/",
       category: "ai",
       status: "completed",
       icon: Droplet,
       gradient: "from-blue-400 to-cyan-500"
-    },
-    {
-      title: "AI Rate My Professor",
-      description: "Sentiment analysis-based professor review platform with enhanced course feedback system",
-      longDescription: "Built a modern alternative to traditional professor rating systems using advanced sentiment analysis to provide more nuanced and helpful course feedback for students.",
-      technologies: ["Next.js", "React", "Sentiment Analysis", "Vercel", "Natural Language Processing"],
-      features: ["Sentiment-based reviews", "Enhanced relevance", "Modern UI/UX", "Course insights"],
-      category: "ai",
-      status: "completed",
-      icon: Star,
-      gradient: "from-purple-400 to-indigo-500"
     },
     {
       title: "Portfolio Website",
@@ -103,14 +95,14 @@ export const Projects = () => {
       longDescription: "Designed and developed this very portfolio using modern web technologies, focusing on accessibility, performance, and beautiful user experience.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite"],
       features: ["Responsive design", "Smooth animations", "Dark theme", "Accessibility focus"],
-      githubUrl: "https://github.com/williamacostalora/portfolio",
+      githubUrl: "https://github.com/williamacostalora/personalWebsite",
       category: "web",
       status: "completed",
       icon: Globe,
       gradient: "from-indigo-400 to-purple-500"
     },
     {
-      title: "Health Data Analytics Platform",
+      title: "Portico Health Data Analytics Platform",
       description: "R-based data visualization platform for mapping healthcare access in Twin Cities communities",
       longDescription: "Developed comprehensive data analysis tools to identify healthcare gaps and support community health initiatives through advanced statistical modeling and visualization.",
       technologies: ["R", "Data Visualization", "Statistical Modeling", "GIS Mapping"],

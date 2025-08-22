@@ -103,13 +103,13 @@ export const About = () => {
                 </div>
                 <div className="space-y-4 text-white/80">
                   <p>
-                    Hi! I'm William, a Computer Science student at Macalester College with a passion for creating technology that makes a real difference. Growing up as a first-generation college student from Louisiana, I've learned the power of perseverance and community.
+                    Hi! I'm William, a Computer Science student at Macalester College with a passion for creating technology that makes a real difference. Growing up as a first-generation college student from Venezuela, I've learned the power of perseverance and community.
                   </p>
                   <p>
                     My journey into tech started with curiosity about how things work, but it's evolved into something deeper—a desire to build inclusive solutions that bridge gaps and create opportunities for underrepresented communities.
                   </p>
                   <p>
-                    When I'm not coding, you'll find me mentoring fellow students, co-founding STEM organizations, or working on projects that help local businesses like my family's cleaning company thrive in the digital age.
+                    When I'm not coding, you'll find me mentoring fellow students, running outside, or working on projects that help local businesses thrive in the digital age.
                   </p>
                 </div>
               </div>
@@ -204,8 +204,8 @@ export const About = () => {
                     <p className="text-sm text-white/70">Co-Founder & Co-Chair</p>
                   </div>
                   <div>
-                    <h3 className="font-medium text-white">Adelante</h3>
-                    <p className="text-sm text-white/70">Co-Chair</p>
+                    <h3 className="font-medium text-white">Mathematics, Statistics, and Computer Science Department at Macalester College</h3>
+                    <p className="text-sm text-white/70">Junior Representative</p>
                   </div>
                   <div>
                     <h3 className="font-medium text-white">Computer Science Teaching Assistant</h3>
