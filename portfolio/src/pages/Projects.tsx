@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion"
-import { ExternalLink, Github, Smartphone, Globe, Bot, Droplet, Star, Calendar, Code, Zap } from "lucide-react"
+import { ExternalLink, Github, Smartphone, Globe, Bot, Droplet, Calendar, Code, Zap } from "lucide-react"
 import React from "react";
 
 type ChipProps = { children: React.ReactNode; tone?: "neutral" | "positive" | "blue" | "purple" }
